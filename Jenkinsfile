@@ -13,7 +13,7 @@ pipeline {
         DOCKER_IMAGE = "${ECR_REGISTRY}/${ECR_REPOSITORY}:${IMAGE_TAG}" 
         AWS_CLI_PATH = '"C:\\Program Files\\Amazon\\AWSCLIV2\\aws.exe"'
         ECS_CLUSTER = 'mycluster'
-        ECS_SERVICE = 'my-ecs-service'
+        ECS_SERVICE = 'my-ecs-service1'
         ECS_TASK_DEFINITION = 'my-task-def'
         ECS_TASK_FAMILY = 'my-task-def'
     }
